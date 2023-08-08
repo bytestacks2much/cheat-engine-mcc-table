@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Third Person"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript> 
+[ENABLE]
+7FF40AA76734:
+db 60 0D 18 00 FF FF 00 00 35 06
+
+[DISABLE]
+7FF40AA76734:
+db 40 0D 18 00 FF FF 00 00 35 06
+    </AssemblerScript>
+  </CheatEntry>
+</CheatEntries>
+</CheatTable>
